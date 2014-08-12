@@ -3,32 +3,28 @@ layout: cn
 pageable: true
 ---
 
+- case page_type
+- when 'day'
+  - date_str = Date.new(year, month, day).strftime('%F')
+- when 'month'
+  - date_str = Date.new(year, month, 1).strftime('%Y-%m')
+- when 'year'
+  - date_str = year
+
 - content_for :title do
-  = "微搜索官方博客"
+  = "微搜索官方博客 - #{date_str}"
 
 .sub-nav-bar
   .row
     .large-7.columns
       %h4
         %a{href: '#'}
-          - case page_type
-          - when 'day'
-            = Date.new(year, month, day).strftime('%F')
-          - when 'month'
-            = Date.new(year, month, 1).strftime('%Y-%m')
-          - when 'year'
-            = year
+          = date_str
 .row.main-content
   .large-3.large-push-9.small-12.columns
     .right-content
       %h3
-        - case page_type
-        - when 'day'
-          = Date.new(year, month, day).strftime('%F')
-        - when 'month'
-          = Date.new(year, month, 1).strftime('%Y-%m')
-        - when 'year'
-          = year
+        = date_str
       %hr/
       %ul.no-bullet.media
         %li
