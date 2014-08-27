@@ -33,59 +33,60 @@
 %body
   .off-canvas-wrap{:'data-offcanvas' => true}
     .inner-wrap
-      .row
-        %nav.top-bar.hide-for-small
-          %ul.title-area
-            %li.name
-              %h1
-                %a{href: '/'}
-                  = "微搜索官方博客"
-          %section.top-bar-section
-            %ul.left
-              %li.has-form
-                %form
-                  %input.search-input{type: 'search', id: 'ts-search-input', placeholder: '搜索'}
-          %section.top-bar-section
-            %ul.right
-              / %li
-              /   %a{href: 'http://tinysou.com/about/'}= "关于我们"
-              %li
-                %a{href: 'http://doc.tinysou.com'}= "文档"
-              %li
-                %a{href: 'http://tinysou.com'}= "回到微搜索"
-      %nav.tab-bar.show-for-small
-        %section.left-small
-          %a.left-off-canvas-toggle.menu-icon
-            %span
-        %section.middle.tab-bar-section
-          %a{:href => "/"}
-            %h1.title
-              = "微搜索官方博客"
-        - if content_for? :second_nav
-          %section.right-small
-            %a.right-off-canvas-toggle.menu-icon
+      .not-footer
+        .row
+          %nav.top-bar.hide-for-small
+            %ul.title-area
+              %li.name
+                %h1
+                  %a{href: '/'}
+                    = "微搜索官方博客"
+            %section.top-bar-section
+              %ul.left
+                %li.has-form
+                  %form
+                    %input.search-input{type: 'search', id: 'ts-search-input', placeholder: '搜索'}
+            %section.top-bar-section
+              %ul.right
+                / %li
+                /   %a{href: 'http://tinysou.com/about/'}= "关于我们"
+                %li
+                  %a{href: 'http://doc.tinysou.com'}= "文档"
+                %li
+                  %a{href: 'http://tinysou.com'}= "回到微搜索"
+        %nav.tab-bar.show-for-small
+          %section.left-small
+            %a.left-off-canvas-toggle.menu-icon
               %span
-      %aside.left-off-canvas-menu.show-for-small
-        %ul.off-canvas-list
-          %li
-            %label= '目录'
-          %li
-            %a{href: '/'}= "首页"
-          / %li
-          /   %a{href: 'http://tinysou.com/about/'}= "关于我们"
-          %li
-            %a{href: 'http://doc.tinysou.com'}= "文档"
-          %li
-            %label= '站外链接'
-          %li
-            %a{href: 'https://github.com/tinysou/blog.tinysou.com'}= '本站源代码'
-          %li
-            %a{href: 'http://tinysou.com'}= '微搜索主站'
-      %aside.right-off-canvas-menu.show-for-small
-        = yield_content :second_nav
-      %hr
-      / Main page container
-      = yield
+          %section.middle.tab-bar-section
+            %a{:href => "/"}
+              %h1.title
+                = "微搜索官方博客"
+          - if content_for? :second_nav
+            %section.right-small
+              %a.right-off-canvas-toggle.menu-icon
+                %span
+        %aside.left-off-canvas-menu.show-for-small
+          %ul.off-canvas-list
+            %li
+              %label= '目录'
+            %li
+              %a{href: '/'}= "首页"
+            / %li
+            /   %a{href: 'http://tinysou.com/about/'}= "关于我们"
+            %li
+              %a{href: 'http://doc.tinysou.com'}= "文档"
+            %li
+              %label= '站外链接'
+            %li
+              %a{href: 'https://github.com/tinysou/blog.tinysou.com'}= '本站源代码'
+            %li
+              %a{href: 'http://tinysou.com'}= '微搜索主站'
+        %aside.right-off-canvas-menu.show-for-small
+          = yield_content :second_nav
+        %hr
+        / Main page container
+        = yield
       / Footer
       %footer.footer
         .row
