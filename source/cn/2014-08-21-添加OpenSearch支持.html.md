@@ -1,5 +1,5 @@
 ---
-title: 添加OpenSearch支持
+title: 添加 OpenSearch 支持
 date: 2014-08-21
 author: Michael Ding
 tags:
