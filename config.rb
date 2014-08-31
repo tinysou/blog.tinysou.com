@@ -27,9 +27,9 @@ activate :blog do |blog|
   blog.layout = 'article.cn'
   blog.summary_separator = /(READMORE)/
   blog.summary_length = 250
-  blog.year_link = '{year}.html'
-  blog.month_link = '{year}/{month}.html'
-  blog.day_link = '{year}/{month}/{day}.html'
+  blog.year_link = 'calendar/{year}.html'
+  blog.month_link = 'calendar/{year}/{month}.html'
+  blog.day_link = 'calendar/{year}/{month}/{day}.html'
   blog.paginate = true
   blog.per_page = 10
   blog.page_link = 'p{num}'
