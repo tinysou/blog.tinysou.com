@@ -14,5 +14,5 @@ OpenSearch 是现在不少提供搜索功能的网站少不了的一个特性。
 使用微搜索作为站内搜索引擎的网址，如何支持 OpenSearch，我们在相关文档中做了介绍，请参见：[添加 opensearch 支持][add-opensearch]
 
 
-[github-opensearch]:/images/github-opensearch.png
+[github-opensearch]:github-opensearch.png
 [add-opensearch]:http://doc.tinysou.com/guides/opensearch.html
