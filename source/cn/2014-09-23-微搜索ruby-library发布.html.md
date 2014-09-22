@@ -16,4 +16,4 @@ tags:
 
 快快加入使用微搜索的行列中来吧！
 
-我才不会告诉你们，这篇博客是我粘贴复制9月6日的那篇“微搜索 Node.js Library 发布”呢！
+我才不会告诉你们，这篇博客是我粘贴复制9月6日的那篇[“微搜索 Node.js Library 发布”](http://blog.tinysou.com/cn/2014/09/06/%E5%BE%AE%E6%90%9C%E7%B4%A2nodejs-library%E5%8F%91%E5%B8%83.html)的呢！
