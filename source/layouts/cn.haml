@@ -23,7 +23,7 @@
   - else
     %title= data.page.title || "微搜索官方博客"
   = stylesheet_link_tag "application"
-  = stylesheet_link_tag "http://tinysou-cdn.b0.upaiyun.com/tinysou.min.css"
+  = stylesheet_link_tag "//tinysou-cdn.b0.upaiyun.com/tinysou.min.css"
   = yield_content :stylesheets
   - if content_for? :styles
     :css
@@ -100,7 +100,7 @@
                 %a.reverse{href: 'https://github.com/tinysou/doc.tinysou.com'}= 'GitHub'
           .small-12.large-pull-4.medium-pull-4.large-8.medium-8.columns
             %p.list
-              %a.reverse{href: 'https://tinysou.com'}= "© #{Date.today.year} 微搜索"
+              %a.reverse{href: 'http://tinysou.com'}= "© #{Date.today.year} 微搜索"
               %a.reverse{href: 'http://www.miibeian.gov.cn'}= '苏ICP备12071270号'
       %a.exit-off-canvas
 
@@ -136,7 +136,7 @@
 
   / Javascript
   = javascript_include_tag "application"
-  = javascript_include_tag 'http://tinysou-cdn.b0.upaiyun.com/tinysou-nojquery.js'
+  = javascript_include_tag '//tinysou-cdn.b0.upaiyun.com/tinysou-nojquery.js'
   = yield_content :javascripts
   :javascript
     $(document).ready(function () {
