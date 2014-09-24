@@ -1,5 +1,6 @@
 ---
 layout: cn
+name: cn
 pageable: true
 ---
 
@@ -41,7 +42,7 @@ pageable: true
         %li= image_tag('qrcode_wx.png')
   .large-9.large-pull-3.small-12.columns
     .right-content
-      - page_articles('cn').each_with_index do |article, i|
+      - page_articles.each_with_index do |article, i|
         - if i > 0
           %hr/
         %h2= link_to article.title, article
