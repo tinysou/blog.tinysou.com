@@ -8,7 +8,7 @@ tags:
 ---
 Python Library 发布了！
 
-微搜索的 Python Library 是基于微搜索 v1 版本 API 开发的库，能帮助开发者们更方便地上手微搜索。库的源码托管在 [GitHub](https://github.com/tinysou/tinysou-python).源码附带的 demo方便开发者们学习使用。
+微搜索的 Python Library 是基于微搜索 v1 版本 API 开发的库，能帮助开发者们更方便地上手微搜索。库的源码托管在 [GitHub](https://github.com/tinysou/tinysou-python)，同时附带 demo。
 
 详细的使用方法和函数介绍在[文档中心](http://doc.tinysou.com/libs/python.html)，大家可以前往查阅。
 
@@ -16,4 +16,4 @@ Python Library 发布了！
 
 现在微搜索同时提供 Ruby、Javascript 和 Python 三种动态语言的 Library，想想是不是有点小激动呢！
 
-那就体验一次微搜索来吧!
+那就来体验一次微搜索吧!
