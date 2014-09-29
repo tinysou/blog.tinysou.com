@@ -6,7 +6,7 @@ tags:
 - 公告
 - 文档中心
 ---
-继 Node Library 之后，微搜索又一 Library: Ruby Library 发布了！
+继 [Node Library](https://github.com/tinysou/tinysou-node) 之后，微搜索又一 Library: [Ruby Library](https://github.com/tinysou/tinysou-ruby) 发布了！
 
 微搜索的 Ruby Library 是基于微搜索 v1 版本 API 开发的库。通过使用这个库，开发者们可以更加快捷地享受微搜索的服务。库的源码托管在 [GitHub](https://github.com/tinysou/tinysou-ruby)，同时附带 demo，方便开发者们学习使用。
 

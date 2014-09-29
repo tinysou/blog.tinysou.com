@@ -6,7 +6,7 @@ tags:
 - 公告
 - 文档中心
 ---
-今天有一个令人兴奋的消息：微搜索的 Node.js Library 发布了！
+今天有一个令人兴奋的消息：微搜索的 [Node.js Library](https://github.com/tinysou/tinysou-node) 发布了！
 
 微搜索的 Node.js Library 是基于微搜索 v1 版本 API 开发的库。通过使用这个库，开发者们可以更加快捷地享受微搜索的服务。库的源码托管在 [GitHub](https://github.com/tinysou/tinysou-node)，同时附带 demo，方便开发者们学习使用。
 
