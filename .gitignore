@@ -18,5 +18,5 @@
 
 # Ignore Vendor
 /vendor/ruby
-/vendor/assets/components
+/vendor/assets/components/
 !/vendor/assets/components/.keep
