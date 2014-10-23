@@ -20,12 +20,13 @@
     = link_to '阅读全文&rarr;', article.url, :class => 'button primary radius small'
 
 - unless digest
+  = partial '/cn/share'
   %hr/
-  %ul.no-bullet.article-links
+  %ul.no-bullet
     %li
-      = article.previous_article ? link_to("<i class='icon-caret-left'></i> #{article.previous_article.title}", article.previous_article) : "&nbsp;"
+      = article.previous_article ? link_to("较旧一篇: #{article.previous_article.title}", article.previous_article) : "&nbsp;"
     %li
-      = article.next_article ? link_to("#{article.next_article.title} <i class='icon-caret-right'></i>", article.next_article) : "&nbsp;"
+      = article.next_article ? link_to("较新一篇: #{article.next_article.title}", article.next_article) : "&nbsp;"
   .ds-thread
   :javascript
     var duoshuoQuery = {short_name:"tinysou"};
