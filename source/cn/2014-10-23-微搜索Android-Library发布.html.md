@@ -9,7 +9,9 @@ tags:
 
 之前，大家可能都在网站上使用微搜索，但是微搜索在移动端应用上也能表现得很好哦！
 
-今天，微搜索在连续发布 [Node Library](https://github.com/tinysou/tinysou-node)，[Ruby Library](https://github.com/tinysou/tinysou-ruby) 和 [Python Library](https://github.com/tinysou/tinysou-python) 之后，移动端应用的 Library 也跟上了节奏， [Android Library](https://github.com/tinysou/tinysou-android) 发布了！
+今天我们很高兴地宣布，微搜索的第一个移动端 Library —— [Android 库](https://github.com/tinysou/tinysou-android) 发布了！
+
+这是继连续发布 [Node Library](https://github.com/tinysou/tinysou-node)，[Ruby Library](https://github.com/tinysou/tinysou-ruby) 和 [Python Library](https://github.com/tinysou/tinysou-python) 之后，第4个库。
 
 微搜索的 Android Library 是基于微搜索 v1 版本 API 开发的库，能帮助移动端开发者们为应用添加上搜索功能。库的源码托管在 [GitHub](https://github.com/tinysou/tinysou-android)，同时附带 demo。
 
