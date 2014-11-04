@@ -4,6 +4,7 @@ date: 2014-10-13
 author: Christy Liu
 tags:
 - 合作
+- 活动
 ---
 
 昨天下午，就在我们新搬到的东大科技园长江后街园区，Segmentfault 和[南京 LUG](http://nanjinglug.org) 一起组织了一次[线下沙龙活动](http://segmentfault.com/e/lug-nanjing)。
