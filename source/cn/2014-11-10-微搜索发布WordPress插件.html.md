@@ -1,6 +1,6 @@
 ---
 title: 微搜索推出 WordPress 插件
-date: 2014-11-04
+date: 2014-11-10
 author: Christy Liu
 tags:
 - 公告
