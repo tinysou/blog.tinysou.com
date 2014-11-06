@@ -5,6 +5,7 @@ author: Christy Liu
 tags:
 - 公告
 - 文档中心
+published: false
 ---
 
 很多博主都在使用 WordPress 来搭建自己的博客。虽然挺漂亮，但是 WordPress 的部分功能还是有待加强的，例如搜索效果不佳的搜索引擎。对许多内容丰富的博客来说，快速、有效的搜索引擎无疑能帮助读者快速找到特定文章。

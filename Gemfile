@@ -7,6 +7,7 @@ source 'https://ruby.taobao.org/'
 gem "middleman", "~> 3.3.2"
 gem "middleman-blog"
 gem "middleman-syntax"
+gem "middleman-livereload"
 
 # plugin
 gem "sitemap_generator"
@@ -15,3 +16,4 @@ gem "compass", "~> 0.12.7"
 
 # pages
 gem 'font-awesome-sass'
+gem 'nokogiri'
