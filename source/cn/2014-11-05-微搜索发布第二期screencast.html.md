@@ -1,6 +1,6 @@
 ---
 title: 微搜索发布第二期 screencast
-date: 2014-10-22
+date: 2014-11-05
 author: Christy Liu
 tags:
 - 公告
