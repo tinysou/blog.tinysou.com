@@ -13,6 +13,6 @@ tags:
 
 只要给你的博客安装上 TinySou Search，你就可以方便地使用微搜索了。
 
-插件的源码托管在 [GitHub](https://github.com/tinysou/tinysou-wordpress)。下载可到WordPress官网[下载](https://wordpress.org/plugins/tinysou-search/)，也可以直接点击[下载](https://downloads.wordpress.org/plugin/tinysou-search.zip)。详细的插件介绍可见微搜索的[文档](http://doc.tinysou.com/libs/wordpress.html)。
+插件的源码托管在 [GitHub](https://github.com/tinysou/tinysou-wordpress)。下载可到WordPress官网[下载](https://wordpress.org/plugins/tinysou-search/)，也可以直接点击[下载](https://downloads.wordpress.org/plugin/tinysou-search.zip)。
 
 对于爱捣鼓博客的用户们，这可是个提高读者体验质量的好东西哦！
